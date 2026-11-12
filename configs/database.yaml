@@ -1,0 +1,4 @@
+database:
+  url_env: MANGANESEAI_DATABASE_URL
+  default_url: sqlite:///database/manganeseai.db
+  echo: false

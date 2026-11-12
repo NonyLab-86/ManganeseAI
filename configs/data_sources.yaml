@@ -1,0 +1,27 @@
+sources:
+  materials_project:
+    name: Materials Project
+    category: computational
+    status: available
+    credential_env: MP_API_KEY
+    record_types: [summary, structures, computational_properties]
+  jarvis:
+    name: JARVIS
+    category: computational
+    status: planned
+    record_types: [structures, computational_properties]
+  oqmd:
+    name: Open Quantum Materials Database
+    category: computational
+    status: planned
+    record_types: [thermodynamic_properties]
+  cod:
+    name: Crystallography Open Database
+    category: experimental
+    status: planned
+    record_types: [structures]
+  scientific_literature:
+    name: Scientific literature
+    category: experimental
+    status: planned
+    record_types: [electrochemical_properties, synthesis_conditions, characterization]

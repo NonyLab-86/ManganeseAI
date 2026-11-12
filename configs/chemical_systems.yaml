@@ -1,0 +1,27 @@
+chemical_systems:
+  - id: Mn-O
+    elements: [Mn, O]
+  - id: Mn-Zn-O
+    elements: [Mn, Zn, O]
+  - id: Mn-V-O
+    elements: [Mn, V, O]
+  - id: Mn-P-O
+    elements: [Mn, P, O]
+  - id: Mn-Fe-O
+    elements: [Mn, Fe, O]
+
+polymorphs:
+  - id: alpha-MnO2
+    formula: MnO2
+    structure: tunnel
+  - id: beta-MnO2
+    formula: MnO2
+    structure: pyrolusite
+  - id: gamma-MnO2
+    formula: MnO2
+    structure: intergrowth
+  - id: delta-MnO2
+    formula: MnO2
+    structure: layered
+
+modifiers: [Mg, Zn, Fe, Al]
